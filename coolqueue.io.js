@@ -1,16 +1,16 @@
 /**@preserve
  ===         CoolQueue.io          ===
  \                                    \
- ===      Act fast, be cool        ===
+  ===      Act fast, be cool        ===
  /                                    /
  ===   Socket.io offline failsafe  ===
  \                                    \
- ===      For the Gentlemen        ===
+  ===      For the Gentlemen        ===
  /                                    /
  ===      CodeBuffet Original      ===
  \                                    \
- ===       www.codebuffet.co       ===
- /                                   /
+  ===       www.codebuffet.co       ===
+ /                                    /
  ===    Author: Peter Willemsen    ===
 
  Copyright (C) 2013 Peter Willemsen <peter@codebuffeat.co>

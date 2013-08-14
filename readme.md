@@ -71,6 +71,6 @@ Disables HTML5 storage, will only save in RAM (non-presistent) and queue is just
 Set different queues, easy for managing different socket.io connections
 
 ####ignoreKeys
-***Default:*** [] (Array)
+***Default:*** (Empty Array)
 
 This is an array of strings, strings in here will be ignored.
