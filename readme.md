@@ -57,7 +57,7 @@ When you want to send the queue (if any) do the following:
 Properties can be defined like this:
 
 	var coolQueue = createCoolQueue({
-		persistent: True
+		persistent: true
 	});
 
 ####persistent
