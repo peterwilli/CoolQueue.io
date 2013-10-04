@@ -2,7 +2,7 @@
 ##A gentlemen's persistent failsafe for Socket.io
 License: MIT
 
-So you have this cool website featuring realtime i/o made with your favourite tools and your aswesome skills.
+So you have this cool website featuring realtime i/o made with your favourite tools and your awesome skills.
 But what if this realtime i/o is not so realtime anymore? What if your site goes offline? (which is obviously not your fault!)
 
 ###Fear no more bro!
