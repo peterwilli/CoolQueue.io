@@ -1,18 +1,19 @@
-#CoolQueue.io
-##A gentlemen's persistent failsafe for Socket.io
+# CoolQueue.io
+## A gentlemen's persistent failsafe for Socket.io
+
 License: MIT
 
 So you have this cool website featuring realtime i/o made with your favourite tools and your awesome skills.
 But what if this realtime i/o is not so realtime anymore? What if your site goes offline? (which is obviously not your fault!)
 
-###Fear no more bro!
+### Fear no more bro!
 At CodeBuffet I had the same nightmare. But now a remedy is born! And it's free!
 
 CoolQueue.io sits between socket.io, using HTML5 Storage to keep track of anything that **was supposed to be** send to the server. When you come online again, we push it back to the server like nothing every happened **(WOW!)**
 
 It's like Socket.io always had this feature all along!
 
-###I want it!
+### I want it!
 To install CoolQueue.io, just load coolqueue.io.js and the dependency (jStorage) file like this in your website:
 
 	<script src="<PATH TO>/jstorage.min.js"></script>
@@ -36,7 +37,7 @@ When you want to send the queue (if any) do the following:
 	// Send the queue (if any)
 	coolQueue.sendQueue();
 
-###Complete example
+### Complete example
 	
 	var coolQueue = createCoolQueue();
 	coolQueue.swallow(socket);
@@ -52,7 +53,7 @@ When you want to send the queue (if any) do the following:
 	
 	socket.emit("lol", {"I will be saved and sent later if your server goes offline!": "Really? Cool!"});
 	
-###Custom Properties
+### Custom Properties
 
 Properties can be defined like this:
 
@@ -60,17 +61,17 @@ Properties can be defined like this:
 		persistent: true
 	});
 
-####persistent
+#### persistent
 ***Default:*** True
 
 Disables HTML5 storage, will only save in RAM (non-pesistent) and queue is just like it was before if you refresh or restart the browser
 
-####queueKey
+#### queueKey
 ***Default:*** "my_queue"
 
 Set different queues, easy for managing different socket.io connections
 
-####ignoreKeys
+#### ignoreKeys
 ***Default:*** (Empty Array)
 
 This is an array of strings, strings in here will be ignored.
